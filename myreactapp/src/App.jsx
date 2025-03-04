@@ -1,16 +1,17 @@
 //* Parent component
 // import Navbar from "./components/Navbar";
-import Cbc from "./alltopics/typesofcomponents/Cbc";
-import Fbc from "./alltopics/typesofcomponents/fbc";
+// import Cbc from "./alltopics/typesofcomponents/Cbc";
+// import Fbc from "./alltopics/typesofcomponents/fbc";
+
+import StateInFbc from "./alltopics/states/StatesInFbc";
 
 function App(){
     return (
         <div>
-
-            {/* <Navbar /> */}
-
+            {/* <Navbar />
             <Fbc />
-            <Cbc />
+            <Cbc /> */}
+            <StateInFbc />
         </div>
 
     );
