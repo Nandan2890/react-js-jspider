@@ -1,5 +1,6 @@
 //* Parent component
 // import Navbar from "./components/Navbar";
+import Cbc from "./alltopics/typesofcomponents/Cbc";
 import Fbc from "./alltopics/typesofcomponents/fbc";
 
 function App(){
@@ -9,6 +10,7 @@ function App(){
             {/* <Navbar /> */}
 
             <Fbc />
+            <Cbc />
         </div>
 
     );
