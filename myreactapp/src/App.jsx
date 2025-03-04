@@ -3,7 +3,8 @@
 // import Cbc from "./alltopics/typesofcomponents/Cbc";
 // import Fbc from "./alltopics/typesofcomponents/fbc";
 
-import StateInFbc from "./alltopics/states/StatesInFbc";
+import CounterInFbc from "./alltopics/states/CounterInFbc";
+// import StateInFbc from "./alltopics/states/StatesInFbc";
 
 function App(){
     return (
@@ -11,7 +12,8 @@ function App(){
             {/* <Navbar />
             <Fbc />
             <Cbc /> */}
-            <StateInFbc />
+            {/* <StateInFbc /> */}
+            <CounterInFbc />
         </div>
 
     );

@@ -6,10 +6,15 @@ const StateInFbc = () => {
 
     console.log(state);
 
+    function changeData(){
+        setState("Byee");
+    }
+
     return (
         <div>
             <h1>Learn States in FBC</h1>
             <h1>{state}</h1>
+            <button onClick={changeData}>Click me</button>
         </div>
     );
 };
@@ -26,3 +31,4 @@ export default StateInFbc;
 //* when we have to write XML, then we write in return paranthesis but when we have to write JS we have to write in Component
 
 //* when we use js code in xml we have to write in expression eg. {state}
+//? states are used to store data in component 
