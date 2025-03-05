@@ -4,7 +4,9 @@
 // import Fbc from "./alltopics/typesofcomponents/fbc";
 
 // import CounterInFbc from "./alltopics/states/CounterInFbc";
-import StatesInCbc from "./alltopics/states/StatesInCbc";
+import Cart from "./alltopics/Props/Cart";
+// import CounterInCbc from "./alltopics/states/CounterInCbc";
+// import StatesInCbc from "./alltopics/states/StatesInCbc";
 // import StateInFbc from "./alltopics/states/StatesInFbc";
 
 function App(){
@@ -15,7 +17,9 @@ function App(){
             <Cbc /> */}
             {/* <StateInFbc /> */}
             {/* <CounterInFbc /> */}
-            <StatesInCbc />
+            {/* <StatesInCbc /> */}
+            {/* <CounterInCbc /> */}
+            <Cart />
         </div>
 
     );
