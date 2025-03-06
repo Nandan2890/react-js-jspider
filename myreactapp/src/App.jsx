@@ -4,7 +4,8 @@
 // import Fbc from "./alltopics/typesofcomponents/fbc";
 
 // import CounterInFbc from "./alltopics/states/CounterInFbc";
-import Cart from "./alltopics/Props/Cart";
+// import Cart from "./alltopics/Props/Cart";
+import PropsParent from "./alltopics/Props/PropsParent";
 // import Nav from "./alltopics/Props/Nav";
 // import CounterInCbc from "./alltopics/states/CounterInCbc";
 // import StatesInCbc from "./alltopics/states/StatesInCbc";
@@ -20,8 +21,9 @@ function App(){
             {/* <CounterInFbc /> */}
             {/* <StatesInCbc /> */}
             {/* <CounterInCbc /> */}
-            <Cart />
+            {/* <Cart /> */}
             {/* <Nav /> */}
+            <PropsParent />
         </div>
 
     );
