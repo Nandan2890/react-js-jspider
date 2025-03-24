@@ -1,0 +1,33 @@
+#todoform {
+  padding: 20px;
+  width: 40vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: rgba(105, 236, 105, 0.851);
+  box-shadow: 0 0 2px black;
+}
+#todoform > input {
+  width: 90%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+#todoform > button {
+  padding: 5px 20px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px black;
+  cursor: pointer;
+}
+#todoform > button:hover {
+  box-shadow: 2px 3px 2px black;
+  transition: 0.3s;
+  background-color: rgba(0, 100, 0, 0.777);
+}
