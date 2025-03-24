@@ -25,3 +25,12 @@
        - Hooks
        - No Life Cycle Method
        - No this keyword
+
+
+
+
+## React CSS 
+There are three types of css used in react
+- ` Inline CSS `
+- ` Global CSS `
+- ` Module CSS `
