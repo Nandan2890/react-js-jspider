@@ -3,8 +3,10 @@
 // import Cbc from "./alltopics/typesofcomponents/Cbc";
 // import Fbc from "./alltopics/typesofcomponents/fbc";
 
+import LifeCycle from "./alltopics/lifeCycleMethods/LifeCycle";
+
 // import Fetch from "./alltopics/sideEffects/Fetch";
-import Fetch2 from "./alltopics/sideEffects/Fetch2";
+// import Fetch2 from "./alltopics/sideEffects/Fetch2";
 // import UserCard from "./alltopics/sideEffects/UserCard";
 // import SideEffect from "./alltopics/sideEffects/SideEffect";
 
@@ -45,8 +47,9 @@ function App(){
             </Context> */}
             {/* <SideEffect /> */}
             {/* <Fetch /> */}
-            <Fetch2 />
+            {/* <Fetch2 /> */}
             {/* <UserCard /> */}
+            <LifeCycle />
         </div>
 
     );
