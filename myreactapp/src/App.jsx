@@ -3,8 +3,15 @@
 // import Cbc from "./alltopics/typesofcomponents/Cbc";
 // import Fbc from "./alltopics/typesofcomponents/fbc";
 
+import ParentX from "./alltopics/hoc/ParentX";
+// import Parent from "./alltopics/memo_and_callbacks/Parent";
+
+// import Products from "./alltopics/customHooks/Products";
+// import Reducer from "./alltopics/reducer/Reducer";
+
 // import LifeCycle from "./alltopics/lifeCycleMethods/LifeCycle";
-import Routing1 from "./alltopics/routing1/Routing1";
+// import Routing1 from "./alltopics/routing1/Routing1";
+// import Routing2 from "./alltopics/routing2/Routing2";
 
 // import Fetch from "./alltopics/sideEffects/Fetch";
 // import Fetch2 from "./alltopics/sideEffects/Fetch2";
@@ -51,7 +58,12 @@ function App(){
             {/* <Fetch2 /> */}
             {/* <UserCard /> */}
             {/* <LifeCycle /> */}
-            <Routing1 />
+            {/* <Routing1 /> */}
+            {/* <Routing2 /> */}
+            {/* <Reducer /> */}
+            {/* <Products /> */}
+            {/* <Parent /> */}
+            <ParentX />
         </div>
 
     );
