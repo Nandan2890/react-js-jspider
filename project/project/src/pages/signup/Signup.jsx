@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import style from "./signup.module.css";
 import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from "react-icons/fa6";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import toast from "react-hot-toast";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
     let [signupUser, setSignupUser] = useState({
@@ -11,6 +12,8 @@ const Signup = () => {
         email: "",
         password: "",
     });
+
+    let navigate = useNavigate();
 
     let handleChange = (e) => {
         let { name, value } = e.target;
@@ -28,8 +31,13 @@ const Signup = () => {
             let response = await axios.post("http://localhost:8080/users", signupUser);
 
             console.log(response);
+
+            toast.success("Signup Successfully");
+
+            navigate("/login");
         } catch(error){
             console.log("error while posting the signupuser")
+            toast.error("Unable to Signup");
         }
 
         //clearing input field

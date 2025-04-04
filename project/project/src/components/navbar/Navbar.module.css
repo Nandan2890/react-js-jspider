@@ -20,11 +20,19 @@
     border-radius: 5px;
 }
 
-.signupbtn{
+/* .signupbtn{
     background-color: white;
     color: black;
+} */
+
+.signupbtn:hover{
+    background-color: rgba(255, 255, 255, 0.167);
 }
 
 .loginbtn:hover{
+    background-color: rgba(255, 255, 255, 0.167);
+}
+
+.logoutbtn:hover{
     background-color: rgba(255, 255, 255, 0.167);
 }

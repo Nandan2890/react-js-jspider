@@ -11,6 +11,24 @@
       "username": "test1",
       "email": "testuser1@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "3ede",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3d71",
+      "username": "ttt",
+      "email": "ttt",
+      "password": "111"
+    },
+    {
+      "id": "04cd",
+      "username": "rrr",
+      "email": "rrr",
+      "password": "111"
     }
   ]
 }

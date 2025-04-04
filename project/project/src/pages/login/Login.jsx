@@ -3,6 +3,7 @@ import style from "./login.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from "react-icons/fa6";
 import { useApi } from "../../customHooks/CustomHooks";
+import toast from "react-hot-toast";
 
 
 const Login = () => {
@@ -37,9 +38,13 @@ const Login = () => {
             // authuser ID save localstorage
             localStorage.setItem("userid", authUser.id)
 
+            toast.success("Login Successfully")
+
         }else{
             // navigate Signup.jsx
             navigate("/")
+
+            toast.error("Login Failed")
         }
     };
 
