@@ -1,23 +1,23 @@
 #navbar {
-    height: 70px;
-    width: 100%;
-    background: linear-gradient(#fb492c, #ff4749);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(#fb492c, #ff4749);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
 
 #navbar > ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
 
-#navbar li{
-    padding: 8px 15px;
-    border-radius: 5px;
+#navbar li {
+  padding: 8px 15px;
+  border-radius: 5px;
 }
 
 /* .signupbtn{
@@ -25,14 +25,45 @@
     color: black;
 } */
 
-.signupbtn:hover{
-    background-color: rgba(255, 255, 255, 0.167);
+.signupbtn:hover {
+  background-color: rgba(255, 255, 255, 0.167);
 }
 
-.loginbtn:hover{
-    background-color: rgba(255, 255, 255, 0.167);
+.loginbtn:hover {
+  background-color: rgba(255, 255, 255, 0.167);
 }
 
-.logoutbtn:hover{
-    background-color: rgba(255, 255, 255, 0.167);
+.logoutbtn:hover {
+  background-color: rgba(255, 255, 255, 0.167);
+}
+
+.hamburger {
+  border-radius: 50%;
+  font-size: 30px;
+  position: relative;
+}
+
+.dropdown {
+  font-size: 14px;
+  border: 2px solid gray;
+  position: absolute;
+  bottom: -110px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0.39);
+  color: black;
+  padding: 5px 10px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 5px gainsboro;
+  font-size: 600;
+  display: none;
+}
+
+.dropdown > li:hover {
+  background-color: rgb(235, 235, 235, 0.821);
+  cursor: pointer;
+}
+
+.hamburger:hover > .dropdown {
+  display: block;
 }

@@ -33,7 +33,7 @@ const Login = () => {
 
         if(authUser) {
             // navigate Profile.jsx
-            navigate("/profile")
+            navigate(`/profile/${authUser.id}`);
 
             // authuser ID save localstorage
             localStorage.setItem("userid", authUser.id)
